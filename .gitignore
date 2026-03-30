@@ -1,0 +1,15 @@
+# MATLAB
+*.asv
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# OS
+.DS_Store
+
+# Python (if any later)
+__pycache__/
