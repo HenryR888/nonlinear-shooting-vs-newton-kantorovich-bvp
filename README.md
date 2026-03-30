@@ -2,18 +2,18 @@
 
 This project implements and compares two numerical methods for solving a cubic–quartic non-linear boundary value problem:
 
-\[
+$$
 \frac{d^2v}{dr^2} + \frac{1}{r}\frac{dv}{dr} - v + 2v^3 - \alpha v^4 = 0
-\]
+$$
 
 with boundary conditions:
 
-\[
-v'(0) = 0, \qquad v(\infty) = 0.
-\]
+$$
+v'(0) = 0, \qquad v(\infty) = 0
+$$
 
 ### Shooting Method (with bisection)
-- Reformulates the BVP as an IVP with unknown initial condition \( v(0) = p \)
+- Reformulates the BVP as an IVP with unknown initial condition $$v(0) = p $$
 - Uses MATLAB’s `ode45` for integration
 - Applies **bisection** to determine the correct shooting parameter
 
